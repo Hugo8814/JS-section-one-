@@ -167,16 +167,131 @@
 // console.log(BMIJohn);
 // const markHigherBMI = BMIMark > BMIJohn;
 // console.log(markHigherBMI);
-////////////////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////////////////////
 
-const firstName = "hugo";
-const job = "dev";
-const birthYear = 2003;
-const Year = 2023;
+// const firstName = "hugo";
+// const job = "dev";
+// const birthYear = 2003;
+// const Year = 2023;
 
-const hugo =
-  "i'm " + firstName + ", a " + (Year - birthYear) + " year old " + job;
-console.log(hugo);
+// const hugo =
+//   "i'm " + firstName + ", a " + (Year - birthYear) + " year old " + job;
+// console.log(hugo);
 
-const hugonew = `i'm ${firstName} , a  ${Year - birthYear} year old ${job} `;
-console.log(hugonew);
+// const hugonew = `i'm ${firstName} , a  ${Year - birthYear} year old ${job} `;
+// console.log(hugonew);
+
+// console.log(" this is \n gonna be\n lots of\n  lines");
+// console.log(` this is
+//  gonna be
+//  lots of
+//   lines`);
+
+//   //////////////////
+//   assessment
+
+//   const description =
+//  `Portugal is in Europe,
+//   and its 11 million people speak
+//   portuguese`;
+// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const age = 15;
+// const isOldEnough = age >= 18;
+
+// if (age >= 18) {
+//   console.log("sarah can start driving license 🚗");
+// } else {
+//   const yearLeft = 18 - age;
+//   console.log(` sarah is too young , wait another ${yearLeft} years`);
+// }
+
+// const birthYear = 2003;
+// let century;
+// if (birthYear <= 2000) {
+//   let century = 20;
+// } else {
+//   let century = 21;
+// }
+// console.log(century);
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const BMIMark = massMark / (heightMark * heightMark);
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
+
+// /* Write your code below. Good luck! 🙂 */
+// if (BMIMark > BMIJohn) {
+//   console.log(`Mark's BMI ${BMIMark} is higher than John's${BMIJohn}!`);
+// } else {
+//   console.log(`John's BMI ${BMIJohn}is higher than Mark's${BMIMark}!`);
+// }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///type conversion
+// const inputYear = "2003";
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+// console.log(Number("hugo"));
+
+// console.log(String(23), 23);
+
+// //type coercion
+
+// console.log("i am " + 23 + " years old");
+// console.log("10" - 4 - "10");
+// console.log("10" + 4 + "10");
+// console.log("10" * "10");
+// console.log("10" / "10");
+// ///////////////////////////////////
+// //assessement
+// console.log("9" - "5");
+// console.log("19" - "13" + "17");
+// console.log("19" - "13" + 17);
+// console.log("123" < 57);
+// console.log(5 + 6 + "4" + 9 - 4 - 2);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("hugo"));
+// console.log(Boolean({}));
+
+// const money = 0;1
+// if (money) {
+//   console.log("don't spend it all");
+// } else {
+//   console.log("you should get a job");
+// }
+// //////////////////////////
+// assemmeent
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const age = "18";
+if (age === 18) console.log("you get became a adult");
+if (age == 18) console.log("you get became a man");
+
+const fav = Number(prompt("yo yo "));
+console.log(fav);
+console.log(typeof fav);
+
+if (fav === 21) {
+  console.log("cool");
+} else if (fav === 7) {
+  console.log("coolio");
+} else {
+  console.log("number aint 7 or 21 dummy");
+}
