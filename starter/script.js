@@ -280,18 +280,89 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const age = "18";
-if (age === 18) console.log("you get became a adult");
-if (age == 18) console.log("you get became a man");
+// const age = "18";
+// if (age === 18) console.log("you get became a adult");
+// if (age == 18) console.log("you get became a man");
 
-const fav = Number(prompt("yo yo "));
-console.log(fav);
-console.log(typeof fav);
+// const fav = Number(prompt("yo yo "));
+// console.log(fav);
+// console.log(typeof fav);
 
-if (fav === 21) {
-  console.log("cool");
-} else if (fav === 7) {
-  console.log("coolio");
-} else {
-  console.log("number aint 7 or 21 dummy");
-}
+// if (fav === 21) {
+//   console.log("cool");
+// } else if (fav === 7) {
+//   console.log("coolio");
+// } else {
+//   console.log("number aint 7 or 21 dummy");
+// }
+// if (fav !== 23) console.log("why not 23?");
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const hasDriversLicense = true; // a
+// const hasGoodVison = true; // b
+
+// console.log(hasDriversLicense && hasGoodVison);
+// console.log(hasDriversLicense || hasGoodVison);
+// console.log(!hasDriversLicense);
+// const shouldDrive = hasDriversLicense && hasGoodVison;
+
+// if (shouldDrive) {
+//   console.log("have fun you can drive");
+// } else {
+//   console.log("get a mate to dirve cuz you cant ");
+// }
+
+// const isTired = false;
+// console.log(hasDriversLicense && hasGoodVison && isTired);
+
+// if (hasDriversLicense && hasGoodVison && !isTired) {
+//   console.log("have fun you can drive");
+// } else {
+//   console.log("get a mate to dirve cuz you cant ");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const day = "";
+
+// switch (day) {
+//   case "monday": //// day === "monday"
+//     console.log("hugo is the best");
+//     console.log("got to coding meet up");
+//     break;
+//   case "tuesday":
+//     console.log("make vides");
+//     break;
+//   case "wed":
+//   case "thuday":
+//     console.log("make code");
+//     break;
+//   case "fir":
+//     console.log("make code 2");
+//     break;
+
+//   case "sat":
+//   case "sun":
+//     console.log("make code5");
+//     break;
+//   default:
+//     console.log("not a valid day");
+// }
+
+// if (day === "monday") {
+//   console.log("code");
+// } else if (day == " tuesday") {
+//   console.log("code1");
+// } else if (day == "wednesday" || day === "thursday") {
+//   console.log("code2");
+// } else if (day == " firday") {
+//   console.log("code3");
+// } else if (day == "sat") {
+//   console.log("code4");
+// } else if (day == "sun") {
+//   console.log("code5");
+// } else {
+//   console.log("not a day");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////
